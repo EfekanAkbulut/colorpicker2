@@ -1,11 +1,3 @@
-/*
-  Copyright (c) Kenneth Chung
-  twitter: @kentor
-  github: kentor
-
-  created: Auguest 27, 2012
-*/
-
 function componentToHex(c) {
   var hex = c.toString(16)
   return hex.length == 1 ? "0" + hex : hex
